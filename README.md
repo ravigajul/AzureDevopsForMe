@@ -17,5 +17,5 @@ this in yaml file is responsible for triggering the job automatically
 $(System.DefaultWorkingDirectory)
 
 ## Enable Continous Deployment Trigger in Release pipeline
-Everytime there is a code checked in , build pipeline will be trigger and generates the artifacts.
+Everytime there is a code checked in , build pipeline will be trigger and generates the new artifacts.
 If the continuous deployment trigger is enabled in release pipeline against artifacts, the continuous deployment happens by running release pipeline.
