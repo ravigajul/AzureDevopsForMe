@@ -12,3 +12,6 @@ pre defined enviornment variable $(Build.ArtifactStagingDirectory) refers to c:\
 trigger:
  -master
 this in yaml file is responsible for triggering the job automatically
+
+## The artificats on Azure pipeline is represented by below environment variable
+$(System.DefaultWorkingDirectory)
