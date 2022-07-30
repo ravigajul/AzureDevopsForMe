@@ -43,3 +43,8 @@ pool:
 OrganizationSettings-->Extensions->Browse Market Place -> Search for above extensions and add it to Azure
 Add white source bolt task to the azure-pipeline.yaml
 Now when the pipeline is run, we would see extra tab "WhiteSourceBoltBuildReport' that shows security vulnerability score and suggestions.
+
+## Code Quality and Security
+onpremise - SonarQube -https://www.sonarqube.org/success-download-community-edition/
+onCloud - SonarCloud - https://sonarcloud.io/
+
