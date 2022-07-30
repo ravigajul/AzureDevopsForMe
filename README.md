@@ -48,3 +48,6 @@ Now when the pipeline is run, we would see extra tab "WhiteSourceBoltBuildReport
 onpremise - SonarQube -https://www.sonarqube.org/success-download-community-edition/
 onCloud - SonarCloud - https://sonarcloud.io/
 
+## Flaky Test Detection
+ProjectSettings->TestManagement->Flaky Test Detection->ON
+Enabling this will not let the build fail due to the flaky test failure. This can be configured to pass/fail, etc based on certain rules.
