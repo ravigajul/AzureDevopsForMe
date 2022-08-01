@@ -62,3 +62,10 @@ onCloud - SonarCloud - https://sonarcloud.io/
 ## Flaky Test Detection
 ProjectSettings->TestManagement->Flaky Test Detection->ON
 Enabling this will not let the build fail due to the flaky test failure. This can be configured to pass/fail, etc based on certain rules.
+
+## Use ARM templates to make the VMs ready
+## Pre/Post Deployment approvals
+USe pre post deployment approvals to wait for manually approving the deployment.
+
+## Pre-Deployment Gates
+User Pre-deployment Gates for automatically approving the deployment based on the certain criteria defined.
